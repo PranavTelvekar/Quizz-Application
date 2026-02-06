@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hare Ram");   
+
+        QuetionService service=new QuetionService();
+
+        service.displayQuetions();
     }
 }

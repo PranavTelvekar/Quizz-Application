@@ -59,5 +59,10 @@ public class Quetion {
     public void setOpt4(String opt4) {
         this.opt4 = opt4;
     }
+    @Override
+    public String toString() {
+        return "Quetion [id=" + id + ", quetion=" + quetion + ", opt1=" + opt1 + ", opt2=" + opt2 + ", opt3=" + opt3
+                + ", opt4=" + opt4 + ", answer=" + answer + "]";
+    }
     
 }
