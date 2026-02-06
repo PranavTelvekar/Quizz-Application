@@ -29,4 +29,21 @@ public class QuetionService {
             System.out.println(s);
         }
     }
+
+    public void printScore(){
+        int score=0;
+        for(int i=0;i<quetions.length;i++){
+            Quetion que=quetions[i];
+            String actualAnswer=que.getAnswer();
+            String userAnswer=selection[i];
+
+            if(actualAnswer.equals(userAnswer)){
+                score++;
+            }
+
+
+        }
+
+        System.out.println("Your Score Is : "+score);
+    }
 }

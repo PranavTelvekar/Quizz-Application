@@ -5,5 +5,6 @@ public class Main {
         QuetionService service=new QuetionService();
 
         service.playQuizz();
+        service.printScore();
     }
 }
